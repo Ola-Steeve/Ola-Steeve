@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Ola-Steeve, you can call me Stephen
 - 👀 I do DevOps
-- 🌱 I’m currently learning Python. I
+- 🌱 I’m currently learning Python. 
 - 💞️ I’m looking to collaborate on ML/AI projects
 - 📫 How to reach me ... ekundayoolaoluwa70@gmail.com
 
