@@ -1,13 +1,13 @@
 <h1 align="center">Hi 👋, I'm Stephen Ekundayo</h1>
-<h3 align="center">A passionate problem solver, and a skilled DevOps Engineer</h3>
+<h3 align="center">A skilled DevOps Engineer, and AI/ML enthusiast</h3>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ola-steeve" alt="ola-steeve" /></a> </p>
 
-- 🌱 I’m currently learning **Kubernetes,MlOps,Python**
+- 🌱 I’m currently learning **Kubernetes, MlOps, Python**
 
 - 👨‍💻 All of my projects are available at [stephenekundayo.xyz](stephenekundayo.xyz)
 
-- 💬 Ask me about **Python,AWS Cloud Servives, IaC**
+- 💬 Ask me about **Python, AWS Cloud Servives, IaC**
 
 - 📫 How to reach me **ekundayoolaoluwa69@gmail.com**
 
