@@ -187,3 +187,7 @@ const CompaniesBar = props => {
     </div>
   );
 };
+
+
+
+

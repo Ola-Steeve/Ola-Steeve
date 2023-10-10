@@ -2,7 +2,7 @@ import React from "react";
 import GithubIcon from "../Icons/GithubIcon";
 import LinkedinIcon from "../Icons/LinkedinIcon";
 import InstagramIcon from "../Icons/InstagramIcon";
-import YoutubeIcon from "../Icons/YoutubeIcon";
+import TwitterIcon from "../Icons/TwitterIcon";
 const ClickableIcon = props => {
   return (
     <a href={props.href} className="" target={"_blank"} rel="noreferrer">
@@ -11,10 +11,10 @@ const ClickableIcon = props => {
   );
 };
 const IconsData = [
-  { href: "https://github.com/hktitof", Icon: GithubIcon },
-  { href: "https://www.linkedin.com/in/abdellatif-anaflous/", Icon: LinkedinIcon },
-  { href: "https://www.instagram.com/xredme/", Icon: InstagramIcon },
-  { href: "https://www.youtube.com/@abdellatif_anaflous", Icon: YoutubeIcon },
+  { href: "https://github.com/Ola-Steeve", Icon: GithubIcon },
+  { href: "https://www.linkedin.com/in/olaoluwa-stephen/", Icon: LinkedinIcon },
+  { href: "https://www.instagram.com/#/", Icon: InstagramIcon },
+  { href: "https://www.twitter.com/theekundayo/", Icon: TwitterIcon },
 ];
 
 export default function Fotter(props: { githubUrl: string; hideSocialsInDesktop: boolean }) {
@@ -32,7 +32,7 @@ export default function Fotter(props: { githubUrl: string; hideSocialsInDesktop:
     text-sm  space-y-2  "
         >
           <span className="group-hover:text-AAsecondary sm:text-sm text-xs">
-            Built by Anaflous Abdellatif
+            Built by Stephen Ekundayo
           </span>
 
           <span className="text-xs flex flex-row items-center space-x-2 group-hover:text-AAsecondary">

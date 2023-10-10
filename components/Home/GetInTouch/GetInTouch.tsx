@@ -18,11 +18,11 @@ export default function GetInTouch() {
       {/* // ? Get In Touch */}
       <span className="text-gray-200 text-3xl sm:text-4xl font-bold tracking-wider opacity-85">Get In Touch</span>
       <p className="flex font-Header tracking-wider text-gray-400 text-center px-6 sm:px-16 md:px-0 md:w-[600px]">
-        Although I&apos;m Always open for any new opportunities, my inbox is open. Whether you have a question or just
+        I&apos;m Always open to opportunities. Whether you have a question or just
         want to say hi, I&apos;ll try my best to get back to you!
       </p>
       <div className="pt-4">
-        <a href="mailto:abdellatif@anaflous.com" target={"_blank"} rel="noreferrer">
+        <a href="mailto:ekundayoolaoluwa69@gmail.com" target={"_blank"} rel="noreferrer">
           <button
             className="font-mono text-sm text-AAsecondary border-AAsecondary 
                             px-8 py-4 border-[1.5px] rounded "

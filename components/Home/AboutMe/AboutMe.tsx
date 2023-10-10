@@ -3,8 +3,8 @@ import Img from "../../../components/smallComp/image/Img";
 import ArrowIcon from "../../../components/Icons/ArrowIcon";
 export default function AboutMe(props) {
   const technologies = [
-    ["Next.js", "JavaScript (ES6+)", "Tailwind CSS", "Ether.js", "Solidity"],
-    ["Node.js", "TypeScript", "Framer Motion", "react-moralis", "web3.js"],
+    ["AWS", "AZURE", "Terraform", "Docker", "Kubernetes"],
+    ["ArgoCD", "Python", "Ansible", "Prometheus", "Grafana"],
   ];
   return (
     <div id="aboutSection" data-aos="fade-up" className="snap-start flex flex-col  items-center py-20 bg-AAprimary">
@@ -29,35 +29,25 @@ export default function AboutMe(props) {
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
             <div className="font-Header ">
               <span className="text-gray-400 ">
-                Hello! My name is Abdellatif, and I am a passionate software engineer and problem solver, dedicated to
-                creating impactful codes that thrive on the internet. My journey in computer science began in 2009 when
-                I delved into the world of Ethical Hacking using BackTrack OS. Little did I know that programming skills
-                would become essential in pursuing this interest, marking the start of my programming journey.
+                Hey there!, I&apos;m Olaoluwa Stephen, a DevOps/Cloud infrastructure engineer and I&apos;m all about optimizing 
+                software development and delivery processes through automation and seamless collaboration. 
+                In other words, picture me as your tech problem-solver, specializing in automating
+                 the boring stuff and bringing teams together. 
               </span>
             </div>
             <div className="font-Header ">
               <span className="text-gray-400 ">
-                Since pursuing my engineering degree, my career has taken me through diverse industries, allowing me to
-                refine my expertise in desktop and web development. In the realm of{" "}
-                <span className="text-AAsecondary">web3</span>, I am dedicated to pushing boundaries and driving
-                advancements. With experience working alongside esteemed organizations like{" "}
-                <span className="text-AAsecondary">ENS Vision</span>, where I played a key role in releasing v2 of{" "}
-                <span className="text-AAsecondary">ENS Vision Marketplace</span> , my passion for web3 and continuous
-                learning drives me to make a positive impact and advance technology.
+              With expertise in cloud technologies like AWS and AZURE, 
+                 I craft scalable solutions that empower businesses to innovate and scale effortlessly. But wait, 
+                 there&apos;s more! I&apos;m all about creating cozy spaces for your code to flourish. 
+                 With tools like Kubernetes and Docker, I build comfy homes for your applications, so you can focus on
+                 wowing your users.
+                 Beyond tech, you might spot me hiking up a trail, sipping coffee at a local joint, or sharing my two cents 
+                 on blogs. Let's team up, embrace tech, and make your ideas shine brighter than the digital city lights!
+                 Catch you in the cloud
               </span>
             </div>
-            {/* <div className="font-Header tracking-wide">
-              <span className="text-gray-400  ">
-                Fast-forward to today, I&apos;ve had the privilege of working at
-                <span className="text-AAsecondary"> a huge manufacturing company</span>,
-                <span className="text-AAsecondary"> a start-up</span>,{" "}
-                <span className="text-AAsecondary">export-import companies</span>, also
-                <span className="text-AAsecondary"> freelancing</span> and recently as Lead for the{" "}
-                <span className="text-AAsecondary">Google Developer Student club</span>. Experienced in Desktop & Web
-                Development, lately with Arduino Development. My main focus these days is creating and testing{" "}
-                <span className="text-AAsecondary">Smart Contracts</span> with Hardhat.
-              </span>
-            </div> */}
+      
 
             <div className="font-Header tracking-wide">
               <span className="text-gray-400  ">
