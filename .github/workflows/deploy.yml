@@ -1,0 +1,56 @@
+name: Deploy to server
+
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+
+
+jobs:
+      
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18.x]
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+      - run: |
+            npm install 
+            npm run build
+
+  # Deploy_to_EC2:
+  #   name: Deploy to server
+  #   runs-on: ubuntu-latest
+  #   environment: staging
+
+  #   needs: build
+
+  #   steps:
+  #     - name: executing remote ssh commands using ssh key
+  #       uses: appleboy/ssh-action@v0.1.9
+  #       with:
+  #           host : ${{ secrets.SSH_HOST  }}
+  #           username : ${{ secrets.USERNAME  }}
+  #           key: ${{ secrets.SSH_PRIVATEKEY  }}
+  #           port: ${{ secrets.PORT }}
+  #           script: |
+  #               pwd
+  #               cd NeneFE/
+  #               git checkout dev 
+  #               git fetch --all
+  #               git reset --hard origin/dev
+  #               git pull origin dev
+  #               sudo systemctl restart NeneFE.service
+  #               cd ..
+  #               sudo ./deploy.sh                                 
