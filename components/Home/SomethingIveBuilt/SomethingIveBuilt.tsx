@@ -77,11 +77,25 @@ export default function SomethingIveBuilt() {
                   I had the opportunity of leading the DevOps team in establishing a robust
                   <a href="#" target="blank"><span className="text-AAsecondary"> CI/CD </span></a> 
                   pipeline for automated testing and deployment,monitoring, logging
-                   and security measures,I also setup environments, managed infrastructure with tools like Docker and 
-                   Kuberenetes, ensured scalability  of the infrastructure, put measures for disaster recovery into place
+                   and security measures,I also setup environments, created and managed infrastructure with tools like
+                   <span className="text-AAsecondary"> Docker</span>,
+                   <span className="text-AAsecondary"> Terraform</span>, and
+                   <span className="text-AAsecondary"> Kubernetes</span>,
+                    ensured scalability  of the infrastructure, put measures for disaster recovery into place
                    and also a proper documentation of my implementations.
                 </p>
               </div>
+              <ul
+                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
+               text-sm font-Text2 md:justify-end"
+              >
+                <span className="pr-4 z-10">AWS</span>
+                <span className="pr-4 z-10">GitHub Actions</span>
+                <span className="pr-4 z-10">Terraform</span>
+                <span className="pr-4 z-10">Nginx</span>
+                <span className="pr-4 z-10">ArgoCD</span>
+              </ul>
+
               <div className="z-10 flex fle-row space-x-5 ">
                 <GithubIcon link="https://github.com/NeneApp/" />
                 <a href="https://nene.ng" target={"_blank"} rel="noreferrer">
@@ -135,27 +149,29 @@ export default function SomethingIveBuilt() {
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left ">
-                  I had the opportunity to be a part of the development of<span className="text-AAsecondary"> Qrate </span> which aimed to create a
-                  decentralized ecosystem for peer-to-peer transactions. Overseeing the planning and development of the
-                  project, including the <span className="text-AAsecondary"> design</span> and implementation of the{" "}
-                  <span className="text-AAsecondary"> smart contract</span> and{" "}
-                  <span className="text-AAsecondary"> blockchain technology</span>. Here i share with you{" "}
-                  <span className="text-AAsecondary"> YPredict - v1 </span> for the private sale.
+                  I had the privilege of contributing to the development of<span className="text-AAsecondary"> Qrate</span>,
+                  an innovative app designed to connect art enthusiasts with timeless masterpieces and the talented artists behind them.
+                  During the development, i had the opportunity of working with<span className="text-AAsecondary"> Configuration Management </span> 
+                  tool like<span className="text-AAsecondary"> Ansible</span>, and also making use of 
+                  <span className="text-AAsecondary"> Azure </span> services like
+                  <span className="text-AAsecondary"> Azure Virtual Machines</span>,
+                  <span className="text-AAsecondary"> Azure app service</span>, and
+                  <span className="text-AAsecondary"> Azure Cosmos DB </span> for NoSQL database.
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
-               text-sm font-Text2 md:justify-start"
+                text-sm font-Text2 md:justify-start"
               >
-                <span className="pr-4 z-10">Token</span>
-                <span className="pr-4 z-10">ERC20</span>
-                <span className="pr-4 z-10">Nextjs</span>
-                <span className="pr-4 z-10">Smart contract</span>
-                <span className="pr-4 z-10">Blockchain</span>
+                <span className="pr-4 z-10">AZURE Services</span>
+                <span className="pr-4 z-10">Ansible</span>
+                <span className="pr-4 z-10">GitHub Actions</span>
+                <span className="pr-4 z-10">Nginx</span>
+
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/hktitof/Ypredict" />
-                <a href="https://ubiquitous-bublanina-da84ec.netlify.app/" target={"_blank"} rel="noreferrer">
+                <GithubIcon link="https://github.com/TechInnovationsandSolutions" />
+                <a href="https://qrateart.com" target={"_blank"} rel="noreferrer">
                   <ExternalLink url={""} router={router} />
                 </a>
               </div>
@@ -170,7 +186,7 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
-              <Link href={"/typing"}>
+              <Link href={"https://certgo.app"}>
                 <div
                   // onClick={}
                   className="absolute w-full h-full rounded bg-AAsecondary 
@@ -178,7 +194,7 @@ export default function SomethingIveBuilt() {
                 ></div>
               </Link>
 
-              <Img src={"/typing.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/certgo.jpg"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -189,7 +205,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/typing.png"} alt={"Project Screen shot"} className={`w-full h-full `} />
+                <Img src={"/certgo.jpg"} alt={"Project Screen shot"} className={`w-full h-full `} />
               </div>
             </div>
 
@@ -199,32 +215,33 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
                 <span className="text-AAsecondary text-base">Recent Project</span>
-                <Link href={"/typing"}>
+                <Link href={"https://certgo.app"}>
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Speed Typing
+                    CertGo
                   </span>
                 </Link>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                  This project aim to help you to improve your <span className="text-AAsecondary"> typing </span> by
-                  tracking your progress in <span className="text-AAsecondary"> each round</span> and give you a{" "}
-                  <span className="text-AAsecondary"> score</span> based on your typing speed and accuracy through a
-                  table of <span className="text-AAsecondary"> statistics</span>.
+                  This project aim to help you in the creation of digital certificates either in bulk or one at a time. 
+                  Some of the main tools used for the infrastructure of this project includes
+                  <span className="text-AAsecondary"> Terraform</span>{" "} for IAC,
+                  <span className="text-AAsecondary"> Data Dog</span>{" "} for logging and monitoring infrastructure and applications.
+                  and <span className="text-AAsecondary"> Docker</span> for containerization.
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-end"
               >
-                <span className="pr-4 z-10">Algorithms</span>
-                <span className="pr-4 z-10">Framer Motion</span>
-                <span className="pr-4 z-10">Tailwind CSS</span>
-                <span className="pr-4 z-10">TypeScript</span>
+                <span className="pr-4 z-10">AWS</span>
+                <span className="pr-4 z-10">CircleCI</span>
+                <span className="pr-4 z-10">Jenkins</span>
+                <span className="pr-4 z-10">Nginx</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/hktitof/Typing" />
-                <ExternalLink url={"typing"} router={router} />
+                <GithubIcon link="#" />
+                <ExternalLink url={"https://certgo.app"} router={router} />
               </div>
             </div>
           </div>
@@ -238,13 +255,13 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
-              <Link href={"/userdatapuller"}>
+              <Link href={"https://devask-mallet.netlify.app/"}>
                 <div
                   className="absolute w-full h-full rounded bg-AAsecondary 
            transition-opacity opacity-10 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </Link>
-              <Img src={"/hackme.jpg"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/devask.jpg"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -255,7 +272,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/hackme.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} />
+                <Img src={"/devask.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} />
               </div>
             </div>
 
@@ -265,35 +282,37 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1  z-10">
                 <span className="text-AAsecondary text-base">Recent Project</span>
-                <Link href={"/userdatapuller"}>
+                <Link href={"https://devask-mallet.netlify.app/"}>
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    User Data puller
+                    DevAsk
                   </span>
                 </Link>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left ">
-                  This project allows you to understand how easy it is to identify and track your browser based on how
-                  it appears to websites. Such as your
-                  <span className="text-AAsecondary"> location</span>,{" "}
-                  <span className="text-AAsecondary">IP Address</span>,{" "}
-                  <span className="text-AAsecondary">{","} software, Hardware</span> and some additional information
-                  with the help of cookies.
+                This is a platform where users can seek answers to their questions from fellow 
+                developers, fostering skill growth and knowledge enhancement for aspiring software engineers.
+                In the development of this project, tools mostly used were 
+                  <span className="text-AAsecondary"> AWS </span>services like
+                  <span className="text-AAsecondary"> AWS CloudFormation</span>{" "}for IAC,
+                  <span className="text-AAsecondary"> Elastic Container Registry</span>,{" "} together with
+                  <span className="text-AAsecondary"> Docker</span> for containerisation and also 
+                  <span className="text-AAsecondary"> EC2</span> for virtual servers.
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-start"
               >
-                <span className="pr-4 z-10">Cookies</span>
-                <span className="pr-4 z-10">Google APi</span>
-                <span className="pr-4 z-10">Data collecting</span>
-                <span className="pr-4 z-10">IP Address</span>
-                <span className="pr-4 z-10">Location</span>
+                <span className="pr-4 z-10">Cloud Formation</span>
+                <span className="pr-4 z-10">ECR</span>
+                <span className="pr-4 z-10">Lambda</span>
+                <span className="pr-4 z-10">EC2</span>
+                <span className="pr-4 z-10">API GATEWAY</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/hktitof/DataPuller" />
-                <ExternalLink url={"/userdatapuller"} router={router} />
+                <GithubIcon link="https://github.com/workshopapps/twitterdevanswers.web" />
+                <ExternalLink url={"https://devask-mallet.netlify.app/"} router={router} />
               </div>
             </div>
           </div>
@@ -301,7 +320,7 @@ export default function SomethingIveBuilt() {
       </div>
 
       
-      {/* // ? Title  */}
+      {/* CERTIFICATIONS  */}
       <div data-aos="fade-up" className=" flex flex-row  items-center md:px-0">
         <ArrowIcon className={"flex-none h-5 md:h-6 w-5 md:w-5 translate-y-[2px] text-AAsecondary"} />
         <div className="flex-none flex-row space-x-2 items-center pr-2">
@@ -367,7 +386,8 @@ export default function SomethingIveBuilt() {
               </div>
 
               <div className="z-10 flex fle-row space-x-5 ">
-                <a href="https://www.credly.com/badges/be4afb53-1a1d-4aef-aac8-c1ff04875e47/public_url" target={"_blank"} rel="noreferrer">
+                <a href="https://www.credly.com/badges/be4afb53-1a1d-4aef-aac8-c1ff04875e47/public_url"
+                 target={"_blank"} rel="noreferrer">
                   <ExternalLink url={""} router={router} />
                 </a>
               </div>
@@ -412,10 +432,8 @@ export default function SomethingIveBuilt() {
             >
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left ">
-                  I had the opportunity to be a part of the development of<span className="text-AAsecondary"> Qrate </span> which aimed to create a
-                  decentralized ecosystem for peer-to-peer transactions. Overseeing the planning and development of the
-                  project, including the <span className="text-AAsecondary"> design</span> and implementation of the{" "}
-                  {/*  */}
+                  I participated in an online 4 month long internship in which only the top one percent out of 11000
+                  applicants become finalists.
                 </p>
               </div>
               
@@ -429,6 +447,24 @@ export default function SomethingIveBuilt() {
           </div>
         </div>
       </div>
+        {/* // ? Get In Touch */}
+        <div data-aos="fade-up" className="flex flex-col space-y-4 w-full h-96 items-center bg-AAprimary">
+      <span className="text-gray-200 text-3xl sm:text-4xl font-bold tracking-wider opacity-85">Checkout my GitHub Page</span>
+      <p className="flex font-Header tracking-wider text-gray-400 text-center px-6 sm:px-16 md:px-0 md:w-[600px]">
+        For some of my other projects and infrastructures i&apos;ve that ive had the opportunity to work on,
+        you can find them on my github.
+      </p>
+      <div className="pt-4">
+        <a href="" target={"_blank"} rel="noreferrer">
+          <button
+            className="font-mono text-sm text-AAsecondary border-AAsecondary 
+                            px-8 py-4 border-[1.5px] rounded "
+          >
+            <GithubIcon link="https://github.com/workshopapps/twitterdevanswers.web" />
+          </button>
+        </a>
+      </div>
+        </div>
     </div>
     
   );

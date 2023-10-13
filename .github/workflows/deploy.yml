@@ -24,10 +24,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'npm'
+          cache: 'yarn'
       - run: |
-            npm install 
-            npm run build
+            yarn install 
+           # yarn run dev
 
   # Deploy_to_EC2:
   #   name: Deploy to server

@@ -57,13 +57,12 @@ export default function Home() {
   console.log("Portfolio Rendered...");
   const meta = {
     title: "Stephen Ekundayo",
-    description: `I've been working as a DevOps Engineer for 3 years straight. Get in touch with me to know more.`,
+    description: `I've been working as a DevOps Engineer for 4 years straight. Get in touch with me to know more.`,
     image: "/titofCercle.png",
     type: "website",
   };
   const isProd = process.env.NODE_ENV === "production";
-
-  return (
+    return (
     <>
       <Head>
         <title>{meta.title}</title>

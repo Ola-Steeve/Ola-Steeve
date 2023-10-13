@@ -52,13 +52,17 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="text-gray-400 font-Header text-sm md:text-lg sm:text-md mt-10 tracking-wider"
       >
-        I&apos;m a <span className="text-AAsecondary">DevOps engineer</span>, i possess strong problem-solving skills and
-        specialize in crafting exceptional <br className="2xl:block hidden" />
-        digital experiences. My current area of focus is in the <span className="text-AAsecondary">web3 domain</span>,
-        where I actively engage in developing <br className="2xl:block hidden"/>
-        and designing immersive <span className="text-AAsecondary">web3 applications</span>. This involves working with{" "}
-        <span className="text-AAsecondary">Smart Contracts</span>  on the{" "}
-        <span className="text-AAsecondary">Blockchain</span>. 
+        <span className="text-AAsecondary">DevOps engineer</span> adept at creating seamless IT infrastructures, 
+        specializing in aligning <br className="2xl:block hidden" />
+        <span className="text-AAsecondary">development </span> with <span className="text-AAsecondary">operations</span>.
+        I ensure software delivery is <span className="text-AAsecondary">efficient</span>, 
+        <span className="text-AAsecondary"> secure</span>, and aligned with 
+        <span className="text-AAsecondary"> business objectives</span>. <br className="2xl:block hidden"/>
+        Expert in automation of<span className="text-AAsecondary"> deployment pipelines</span>, 
+        optimizing<span className="text-AAsecondary"> cloud architectures</span>, 
+        and implementing<span className="text-AAsecondary"> CI/CD workflows</span>.
+        Discover how I turn projects into scalable systems. 
+        From containerizing apps to advanced monitoring, I'm committed to <span className="text-AAsecondary">DevOps excellence</span>.
         {/* <br className="2xl:block hidden" />creating and deploying them, as well as implementing the
         front-end components to enable seamless user interactions. */}
       </motion.h3>
