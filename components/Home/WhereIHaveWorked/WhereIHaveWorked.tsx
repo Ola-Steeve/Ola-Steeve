@@ -121,7 +121,7 @@ const CompaniesBar = props => {
             CompanyName="Tech Innovations"
             BarPosition={-12}
             BarAvobePosition={1}
-            DescriptionJob="TechInnovations"
+            DescriptionJob="TechInno"
             CompanyNameBackgroundColorGreen={[true,false, false, false, false, false]}
             setDescriptionJob={props.setDescriptionJob}
           />

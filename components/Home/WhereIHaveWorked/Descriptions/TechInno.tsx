@@ -5,20 +5,20 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function TechInno() {
   const tasks = [
     {
-      text: "Streamlined the implementation of CI/CD pipelines for multiple applications,  deployment times by up to 50%.",
-      keywords: ["CI/CD"],
+      text: "Designed and implemented CI/CD pipelines for multiple applications using tools like Jenkins and GitHub Actions  which reduced deployment times by up to 50%.",
+      keywords: ["CI/CD", "Jenkins", "GitHub Actions"],
     },
     {
-      text: "Conducted testing tasks to ensure website functionality and quality. Managed a large user base on the website",
-      keywords: ["quality", "testing tasks", "user base"],
+      text: "Leveraged industry standard tools like Prometheus and Grafana, ELK stack, Data Dog  and Jaeger tracing for monitoring, logging and alerting across all applications and infrastuctures.",
+      keywords: ["Prometheus", "Grafana", "ELK", "Data Dog", "Jaeger tracing"],
     },
     {
-      text: "Implemented website design and enhanced interactivity.",
-      keywords: ["website design"],
+      text: "Designed and maintained highly available systems with AWS services with a 99.99% uptime, utilizing load balancing, redundant architectures, and disaster recovery strategies.",
+      keywords: ["AWS","99.99%", "load balancing", "redundant architectures", "disaster recovery"],
     },
     {
-      text: "Collaborated closely with the team in---- regular meetings and interacted with smart contracts and gained expertise in ENS",
-      keywords: ["smart contracts", "ENS"],
+      text: "Spearheaded security improvements through regular vulnerability assessments. This approach resulted in zero security breaches and ensured the integrity of customer data.",
+      keywords: ["vulnerability assessments", "zero"],
     },
   ];
 

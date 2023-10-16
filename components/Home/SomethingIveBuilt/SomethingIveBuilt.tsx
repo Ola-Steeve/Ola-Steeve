@@ -449,7 +449,7 @@ export default function SomethingIveBuilt() {
       </div>
         {/* // ? Get In Touch */}
         <div data-aos="fade-up" className="flex flex-col space-y-4 w-full h-96 items-center bg-AAprimary">
-      <span className="text-gray-200 text-3xl sm:text-4xl font-bold tracking-wider opacity-85">Checkout my GitHub Page</span>
+      <span className="text-gray-200 text-3xl sm:text-4xl font-bold tracking-wider opacity-85">Checkout my GitHub </span>
       <p className="flex font-Header tracking-wider text-gray-400 text-center px-6 sm:px-16 md:px-0 md:w-[600px]">
         For some of my other projects and infrastructures i&apos;ve that ive had the opportunity to work on,
         you can find them on my github.
@@ -457,10 +457,10 @@ export default function SomethingIveBuilt() {
       <div className="pt-4">
         <a href="" target={"_blank"} rel="noreferrer">
           <button
-            className="font-mono text-sm text-AAsecondary border-AAsecondary 
+            className="font-mono text-sm text-AAsecondary border-AAprimary 
                             px-8 py-4 border-[1.5px] rounded "
           >
-            <GithubIcon link="https://github.com/workshopapps/twitterdevanswers.web" />
+            <GithubIcon link="https://github.com/Ola-Steeve" />
           </button>
         </a>
       </div>
