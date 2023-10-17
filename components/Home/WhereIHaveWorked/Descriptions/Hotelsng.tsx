@@ -2,19 +2,23 @@ import React from "react";
 import ArrowIcon from "../../../Icons/ArrowIcon";
 import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 
-export default function TrouveTavoie() {
+export default function Hotelsng() {
   const tasks = [
     {
-      text: "Spearhead & implemented a new design user workflow system for the Frond-End Architecture of a NFT Marketplace.",
-      keywords: ["NFT Marketplace"],
+      text: " Developed and tested disaster recovery plans to ensure business continuity and minimize downtime during critical events.",
+      keywords: ["disaster recovery"],
     },
     {
-      text: "Worked with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Next.js/React, AWS and Vercel.",
-      keywords: ["Next.js/React", "AWS", "Vercel"],
+      text: "Conducted performance analysis and optimizations, improving application responsiveness and user experience.",
+      keywords: ["performance analysis", "optimizations"],
     },
     {
-      text: "Interfaced with developers on a daily basis, providing technological expertise.",
-      keywords: [],
+      text: "Integrated AWS DevOps tools and services such as CodePipeline, CodeBuild, and CodeDeploy for CI/CD pipelines.",
+      keywords: ["AWS", "CodePipeline", "CodeBuild", "CodeDeploy"],
+    },
+    {
+      text: "Collaborated with cross-functional teams to design cloud-based infrastructure solutions tailored to business needs, ensuring scalability, availability, and cost-effectiveness.",
+      keywords: ["scalability", "availability", "Cost-effectiveness"],
     },
   ];
 
@@ -24,15 +28,15 @@ export default function TrouveTavoie() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Software Engineer <span className="text-AAsecondary">@ Blockchain</span>
+            DevOps Engineer <span className="text-AAsecondary">@ Cloud</span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">Mars - August 2022</span>
+          <span className="font-mono text-xs text-gray-500">October 2021 - August 2022</span>
           <span className="font-mono text-xs text-AAsecondary hover:cursor-pointer" style={{ fontSize: "0.6rem" }}
            // set on click to open the website
-           onClick={() => window.open("https://www.trouvetavoie.io/", "_blank")}
+           onClick={() => window.open("https://www.hotels.ng/", "_blank")}
           >
-            www.trouvetavoie.io
+            www.Hotels.ng
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">

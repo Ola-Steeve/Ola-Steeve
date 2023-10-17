@@ -1,8 +1,8 @@
 import React from "react";
 import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
 import ArrowIcon from "../../Icons/ArrowIcon";
-import TrouveTavoie from "./Descriptions/TrouveTavoie";
-import FeverTokens from "./Descriptions/FeverTokens";
+import Hotelsng from "./Descriptions/Hotelsng";
+import Centurytech from "./Descriptions/Centurytech";
 import IdealFresh from "./Descriptions/IdealFresh";
 import AdvancedAgroManagement from "./Descriptions/AdvancedAgroManagement";
 import Fantasia from "./Descriptions/Fantasia";
@@ -16,10 +16,10 @@ export default function WhereIHaveWorked() {
     switch (DescriptionJob) {
       case "TechInno":
         return <TechInno />;
-      case "TrouveTavoie":
-        return <TrouveTavoie />;
-      case "FeverTokens":
-        return <FeverTokens />;
+      case "Hotelsng":
+        return <Hotelsng />;
+      case "Centurytech":
+        return <Centurytech />;
       case "IdealFresh":
         return <IdealFresh />;
       case "Advanced Agro Management":
@@ -127,19 +127,19 @@ const CompaniesBar = props => {
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={1}
-            CompanyName="TrouveTavoie"
+            CompanyName="Hotelsng"
             BarPosition={32}
             BarAvobePosition={129}
-            DescriptionJob="TrouveTavoie"
+            DescriptionJob="Hotelsng"
             CompanyNameBackgroundColorGreen={[false,true, false, false, false, false]}
             setDescriptionJob={props.setDescriptionJob}
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={2}
-            CompanyName="FeverTokens"
+            CompanyName="21st Century Technologies"
             BarPosition={76}
             BarAvobePosition={257}
-            DescriptionJob="FeverTokens"
+            DescriptionJob="Centurytech"
             CompanyNameBackgroundColorGreen={[false,false, true, false, false, false]}
             setDescriptionJob={props.setDescriptionJob}
           />

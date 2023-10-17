@@ -1,7 +1,7 @@
 import React from "react";
 import ArrowIcon from "../../../Icons/ArrowIcon";
 import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
-export default function FeverTokens() {
+export default function Centurytech() {
   const tasks = [
     {
       text: "Leading the development of the NFT Marketplace v2 for the Platform FeverTokens.",

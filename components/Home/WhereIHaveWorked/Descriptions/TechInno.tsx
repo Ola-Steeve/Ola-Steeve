@@ -31,14 +31,14 @@ export default function TechInno() {
             DevOps Engineer <span className="text-AAsecondary"></span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">Dec 2022 - Jun 2023</span>
+          <span className="font-mono text-xs text-gray-500">Nov 2022 - Present</span>
           <span
             className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
             style={{ fontSize: "0.6rem" }}
             // set on click to open the website
-            onClick={() => window.open("https://www.ens.vision/", "_blank")}
+            onClick={() => window.open("https://www.techinovationsandsolutions.com/", "_blank")}
           >
-            www.ens.vision
+            www.techinovations
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
