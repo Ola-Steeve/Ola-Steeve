@@ -36,7 +36,7 @@ jobs:
 
     steps:
     - name: Deploy production to Netlify
-      uses: South-Paw/action-netlify-deploy@v2
+      uses: South-Paw/action-netlify-cli@v2
       id: netlify
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
