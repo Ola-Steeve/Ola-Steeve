@@ -35,18 +35,11 @@ jobs:
     needs: build
 
     steps:
-#      - name: Install Netlify CLI
- #       run: yarn global add netlify-cli
-
-      - name: Link Repository to Netlify Site
-        run: netlify link --site ${{ secrets.NETLIFY_SITE_ID }} --auth ${{ secrets.NETLIFY_AUTH_TOKEN }}
-
-      - name: Deploy to Netlify
-        uses: jsmrcaga/action-netlify-deploy@v2.0.0
-        with:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-          NETLIFY_DEPLOY_MESSAGE: "Deployed from GitHub action"
-          NETLIFY_DEPLOY_TO_PROD: true
-          install_command: "echo Skipping installing the dependencies"
-          build_command: "echo Skipping building the web files"
+    - name: Deploy production to Netlify
+      uses: South-Paw/action-netlify-deploy@v1.2.0
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        netlify-auth-token: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        netlify-site-id: ${{ secrets.NETLIFY_SITE_ID }}
+        build-dir: './build'
+        comment-on-commit: true
