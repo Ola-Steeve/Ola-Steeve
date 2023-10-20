@@ -58,7 +58,7 @@ export default function Home() {
   const meta = {
     title: "Stephen Ekundayo",
     description: `I've been working as a DevOps Engineer for 4 years straight. Get in touch with me to know more.`,
-    image: "/titofCercle.png",
+    image: "/",
     type: "website",
   };
   const isProd = process.env.NODE_ENV === "production";
@@ -70,6 +70,7 @@ export default function Home() {
         <meta content={meta.description} name="description" />
         <meta property="og:url" content={`https://stephenekundayo.xyz`} />
         <link rel="canonical" href={`https://stephenekundayo.xyz`} />
+        <link rel="icon" href="/favicon.ico/" />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Manu Arora" />
         <meta property="og:description" content={meta.description} />

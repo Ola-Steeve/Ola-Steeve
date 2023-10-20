@@ -240,7 +240,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Nginx</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="#" />
+                <GithubIcon link="https://github.com/workshopapps" />
                 <ExternalLink url={"https://certgo.app"} router={router} />
               </div>
             </div>
@@ -456,10 +456,7 @@ export default function SomethingIveBuilt() {
       </p>
       <div className="pt-4">
         <a href="" target={"_blank"} rel="noreferrer">
-          <button
-            className="font-mono text-sm text-AAsecondary border-AAprimary 
-                            px-8 py-4 border-[1.5px] rounded "
-          >
+          <button>
             <GithubIcon link="https://github.com/Ola-Steeve" />
           </button>
         </a>

@@ -25,7 +25,7 @@ export default function GetInTouch() {
         <a href="mailto:ekundayoolaoluwa69@gmail.com" target={"_blank"} rel="noreferrer">
           <button
             className="font-mono text-sm text-AAsecondary border-AAsecondary 
-                            px-8 py-4 border-[1.5px] rounded "
+                            px-8 py-4 border-[1.5px] rounded hover:bg-ResumeButtonHover "
           >
             Say Hello
           </button>

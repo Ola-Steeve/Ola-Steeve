@@ -3,10 +3,7 @@ import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
 import ArrowIcon from "../../Icons/ArrowIcon";
 import Hotelsng from "./Descriptions/Hotelsng";
 import Centurytech from "./Descriptions/Centurytech";
-import IdealFresh from "./Descriptions/IdealFresh";
-import AdvancedAgroManagement from "./Descriptions/AdvancedAgroManagement";
-import Fantasia from "./Descriptions/Fantasia";
-import SuperBerry from "./Descriptions/SuperBerry";
+import PhlowAI from "./Descriptions/PhlowAI";
 import TechInno from "./Descriptions/TechInno";
 export default function WhereIHaveWorked() {
   const barRef = React.useRef<HTMLDivElement>(null);
@@ -20,14 +17,8 @@ export default function WhereIHaveWorked() {
         return <Hotelsng />;
       case "Centurytech":
         return <Centurytech />;
-      case "IdealFresh":
-        return <IdealFresh />;
-      case "Advanced Agro Management":
-        return <AdvancedAgroManagement />;
-      case "Fantasia":
-        return <Fantasia />;
-      case "SuperBerry":
-        return <SuperBerry />;
+      case "PhlowAI":
+        return <PhlowAI />;
     }
   };
   const [DescriptionJob, setDescriptionJob] = React.useState("TechInno");
@@ -103,7 +94,7 @@ const CompaniesBar = props => {
     >
       {/* // ? left bar Holder */}
       <div
-        className=" hidden md:block bg-gray-500 relative h-0.5 w-34 md:h-[297px] translate-y-1 md:w-0.5  
+        className=" hidden md:block bg-gray-500 relative h-0.5 w-34 md:h-[240px] translate-y-1 md:w-0.5  
         rounded md:order-1 order-2  "
       >
         {/* // ? animated left bar */}
@@ -145,40 +136,40 @@ const CompaniesBar = props => {
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={3}
-            CompanyName="IdealFresh"
+            CompanyName="PhlowAI"
             BarPosition={120}
             BarAvobePosition={385}
-            DescriptionJob="IdealFresh"
+            DescriptionJob="PhlowAI"
             CompanyNameBackgroundColorGreen={[false, false, false, true, false, false]}
             setDescriptionJob={props.setDescriptionJob}
           />
-          <CompanyButton
+          {/* <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={4}
-            CompanyName="SuperBerry"
+            CompanyName=""
             BarPosition={164}
             BarAvobePosition={513}
-            DescriptionJob="SuperBerry"
+            DescriptionJob=""
             CompanyNameBackgroundColorGreen={[false, false, false, false, true, false]}
             setDescriptionJob={props.setDescriptionJob}
-          />
-          <CompanyButton
+          /> */}
+          {/* <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={5}
-            CompanyName="AA Management"
+            CompanyName=""
             BarPosition={208}
             BarAvobePosition={641}
-            DescriptionJob="Advanced Agro Management"
+            DescriptionJob=""
             CompanyNameBackgroundColorGreen={[false, false, false, false, false, true]}
             setDescriptionJob={props.setDescriptionJob}
-          />
-          <CompanyButton
+          /> */}
+          {/* <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={6}
-            CompanyName="Fantasia SME"
+            CompanyName=""
             BarPosition={252}
             BarAvobePosition={769}
-            DescriptionJob="Fantasia"
+            DescriptionJob=""
             CompanyNameBackgroundColorGreen={[false, false, false, false, false, false, true]}
             setDescriptionJob={props.setDescriptionJob}
-          />
+          /> */}
         </div>
         <div className="block md:hidden h-0.5 rounded bg-gray-500">
           <motion.div animate={{ x: barAbovePosition }} className="w-[128px] h-0.5 rounded bg-AAsecondary"></motion.div>

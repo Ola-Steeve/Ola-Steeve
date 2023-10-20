@@ -62,7 +62,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
         optimizing<span className="text-AAsecondary"> cloud architectures</span>, 
         and implementing<span className="text-AAsecondary"> CI/CD workflows</span>.
         Discover how I turn projects into scalable systems. 
-        From containerizing apps to advanced monitoring, I'm committed to <span className="text-AAsecondary">DevOps excellence</span>.
+        From containerizing apps to advanced monitoring, I&apos;m committed to <span className="text-AAsecondary">DevOps excellence</span>.
         {/* <br className="2xl:block hidden" />creating and deploying them, as well as implementing the
         front-end components to enable seamless user interactions. */}
       </motion.h3>
@@ -76,7 +76,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
         className="mt-12"
       >
         <a href={"/resume.pdf"} target={"_blank"} rel="noreferrer">
-          <button className="bg-AAprimary text-AAsecondary border rounded px-4 sm:px-8 py-3 sm:py-4 border-AAsecondary">
+          <button className="bg-AAprimary text-AAsecondary border rounded px-4 sm:px-8 py-3 sm:py-4 border-AAsecondary hover:bg-ResumeButtonHover">
             Check out my resume!
           </button>
         </a>

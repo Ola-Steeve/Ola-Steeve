@@ -4,16 +4,16 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function Centurytech() {
   const tasks = [
     {
-      text: "Leading the development of the NFT Marketplace v2 for the Platform FeverTokens.",
-      keywords: ["NFT Marketplace v2"],
+      text: " Designed and deployed hybrid cloud architectures that seamlessly integrate on-premises infrastructure with cloud resources, ensuring a cohesive and efficient IT environment.",
+      keywords: ["hybrid",'on-premises','cloud'],
     },
     {
-      text: "Worked with a team of six developers to build a temporary NFT Marketplace platform for VivaTech2022 event, an ambitious startup originating from France,Paris.",
-      keywords: ["VivaTech2022 event"],
+      text: "Established VPN connections between on-premises data centers and cloud environments using AWS site-to-site VPN. Ensured secure and reliable communication between cloud resources and on-premises systems.",
+      keywords: ["VPN",'on-premises','cloud','AWS'],
     },
     {
-      text: "Interacted with the blockchain & Smart Contracts to build the new FeverTokens Platform.",
-      keywords: ["blockchain & Smart Contracts"],
+      text: "Maintained comprehensive documentation and conducted knowledge-sharing sessions to improve team productivity.",
+      keywords: ["documentation",'knowledge-sharing'],
     },
   ];
   return (
@@ -22,17 +22,17 @@ export default function Centurytech() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Software Engineer <span className="text-AAsecondary">@ web3</span>
+            Cloud Engineer <span className="text-AAsecondary"></span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">Mars - August 2022</span>
+          <span className="font-mono text-xs text-gray-500">January - September 2021</span>
           <span
             className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
             // set text size on style attribute
             style={{ fontSize: "0.6rem" }}
-            onClick={() => window.open("https:///www.fevertokens.io", "_blank")}
+            onClick={() => window.open("https:///www.21stcenturytechnologies.com", "_blank")}
           >
-            www.fevertokens.io
+            21st.Centurytech
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
