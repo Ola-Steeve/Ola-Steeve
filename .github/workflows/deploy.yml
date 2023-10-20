@@ -29,28 +29,24 @@ jobs:
             yarn install 
            # yarn run dev
 
-  # Deploy_to_EC2:
-  #   name: Deploy to server
-  #   runs-on: ubuntu-latest
-  #   environment: staging
+  Deploy_to_EC2:
+    runs-on: ubuntu-latest
 
-  #   needs: build
+    needs: build
 
-  #   steps:
-  #     - name: executing remote ssh commands using ssh key
-  #       uses: appleboy/ssh-action@v0.1.9
-  #       with:
-  #           host : ${{ secrets.SSH_HOST  }}
-  #           username : ${{ secrets.USERNAME  }}
-  #           key: ${{ secrets.SSH_PRIVATEKEY  }}
-  #           port: ${{ secrets.PORT }}
-  #           script: |
-  #               pwd
-  #               cd NeneFE/
-  #               git checkout dev 
-  #               git fetch --all
-  #               git reset --hard origin/dev
-  #               git pull origin dev
-  #               sudo systemctl restart NeneFE.service
-  #               cd ..
-  #               sudo ./deploy.sh                                 
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Install Netlify CLI
+        run: yarn global add netlify-cli
+      - name: Install deps
+        run: yarn install
+      - name: Deploy
+        run: yarn run build
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+
+
