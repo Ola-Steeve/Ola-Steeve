@@ -72,7 +72,7 @@ export default function Home() {
         <link rel="canonical" href={`https://stephenekundayo.xyz`} />
         <link rel="icon" href="/favicon.ico/" />
         <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="Manu Arora" />
+        <meta property="og:site_name" content="Stephen Ekundayo" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
