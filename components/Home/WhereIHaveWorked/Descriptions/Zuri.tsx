@@ -2,15 +2,19 @@ import React from "react";
 import ArrowIcon from "../../../Icons/ArrowIcon";
 import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 
-export default function PhlowAI() {
+export default function Zuri() {
   const tasks = [
     {
-      text: "Developed and maintained microservices-based applications, using Docker and Kubernetes to containerize and orchestrate services, promoting flexibility and scalability.",
-      keywords: ["microservices",],
+      text: "Led the integration of real-time monitoring and logging solutions. This enabled proactive issue detection and facilitated a 25% reduction in system downtime.",
+      keywords: ["real-time",'monitoring','logging','25% reduction'],
     },
     {
-      text: "Managed databases in the cloud, including SQL and NoSQL databases. Performed tasks such as data modeling, optimization, and scaling.",
-      keywords: ["SQL",'NOSQL'],
+      text: "Collaborated closely with cross-functional teams, fostering an environment of continuous learning and knowledge sharing. ",
+      keywords: ["teams",'continuous learning','knowledge sharing'],
+    },
+    {
+      text: "Promoted feedback-driven improvements using end-user tools and analytics, leading to a 50% rise in user satisfaction within six months.",
+      keywords: ["feedback-driven",'50%','user satisfaction'],
     },  
   ];
   return (
@@ -19,10 +23,10 @@ export default function PhlowAI() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Software Developer <span className="text-AAsecondary">@ BACKEND</span>
+            DevOps Technical Lead <span className="text-AAsecondary"></span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">2020</span>
+          <span className="font-mono text-xs text-gray-500">March 2019 - January 2020</span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
             {/* Tasks Description 1 */}

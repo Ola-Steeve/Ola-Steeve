@@ -3,7 +3,7 @@ import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
 import ArrowIcon from "../../Icons/ArrowIcon";
 import Hotelsng from "./Descriptions/Hotelsng";
 import Centurytech from "./Descriptions/Centurytech";
-import PhlowAI from "./Descriptions/PhlowAI";
+import Zuri from "./Descriptions/Zuri";
 import TechInno from "./Descriptions/TechInno";
 export default function WhereIHaveWorked() {
   const barRef = React.useRef<HTMLDivElement>(null);
@@ -17,8 +17,8 @@ export default function WhereIHaveWorked() {
         return <Hotelsng />;
       case "Centurytech":
         return <Centurytech />;
-      case "PhlowAI":
-        return <PhlowAI />;
+      case "Zuri":
+        return <Zuri />;
     }
   };
   const [DescriptionJob, setDescriptionJob] = React.useState("TechInno");
@@ -136,10 +136,10 @@ const CompaniesBar = props => {
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={3}
-            CompanyName="PhlowAI"
+            CompanyName="ZuriChat"
             BarPosition={120}
             BarAvobePosition={385}
-            DescriptionJob="PhlowAI"
+            DescriptionJob="Zuri"
             CompanyNameBackgroundColorGreen={[false, false, false, true, false, false]}
             setDescriptionJob={props.setDescriptionJob}
           />

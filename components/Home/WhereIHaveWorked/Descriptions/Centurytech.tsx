@@ -25,7 +25,7 @@ export default function Centurytech() {
             Cloud Engineer <span className="text-AAsecondary"></span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">January - September 2021</span>
+          <span className="font-mono text-xs text-gray-500">January 2021 - September 2021</span>
           <span
             className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
             // set text size on style attribute
