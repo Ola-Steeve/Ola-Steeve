@@ -3,25 +3,25 @@ import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
 import ArrowIcon from "../../Icons/ArrowIcon";
 import Hotelsng from "./Descriptions/Hotelsng";
 import Centurytech from "./Descriptions/Centurytech";
-import Zuri from "./Descriptions/Zuri";
 import TechInno from "./Descriptions/TechInno";
+import Zenith from "./Descriptions/Zenith";
 export default function WhereIHaveWorked() {
   const barRef = React.useRef<HTMLDivElement>(null);
   // ? INFORMATIONAL control the green position using px,
   // ? INFORMATIONAL the default value of barRef's class should be at the beginning translate-y-[0px]
   const GetDescription = () => {
     switch (DescriptionJob) {
+      case "Zenith":
+        return <Zenith />;
       case "TechInno":
         return <TechInno />;
       case "Hotelsng":
         return <Hotelsng />;
       case "Centurytech":
         return <Centurytech />;
-      case "Zuri":
-        return <Zuri />;
     }
   };
-  const [DescriptionJob, setDescriptionJob] = React.useState("TechInno");
+  const [DescriptionJob, setDescriptionJob] = React.useState("Zenith");
   return (
     <div data-aos="fade-up" className="flex flex-col items-center justify-center py-24 space-y-12 bg-AAprimary">
       {/* // ? Title "Where I've Worked" */}
@@ -51,11 +51,10 @@ export default function WhereIHaveWorked() {
 }
 
 const CompaniesBar = props => {
-  const [barPosition, setBarPosition] = React.useState<Number>(-8); // Green bar position by the default it's -20px
+  const [barPosition, setBarPosition] = React.useState<Number>(-12); // Green bar position by the default it's -12px
   const [barAbovePosition, setBarAbovePosition] = React.useState<Number>(0);
   const [companyNameBackgroundColorGreen, setCompanyNameBackgroundColorGreen] = React.useState<boolean[]>([
     true,
-    false,
     false,
     false,
     false,
@@ -107,69 +106,42 @@ const CompaniesBar = props => {
       {/* // ? Companies name as buttons */}
       <div className="flex flex-col md:order-2 order-1 space-y-1 pl-8 md:pl-0 ">
         <div className="flex flex-row md:flex-col">
-        <CompanyButton
+          <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={0}
-            CompanyName="Tech Innovations"
+            CompanyName="Zenith Bank"
             BarPosition={-12}
             BarAvobePosition={1}
-            DescriptionJob="TechInno"
-            CompanyNameBackgroundColorGreen={[true,false, false, false, false, false]}
+            DescriptionJob="Zenith"
+            CompanyNameBackgroundColorGreen={[true, false, false, false, false, false]}
             setDescriptionJob={props.setDescriptionJob}
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={1}
-            CompanyName="Hotelsng"
+            CompanyName="Tech Innovations"
             BarPosition={32}
             BarAvobePosition={129}
-            DescriptionJob="Hotelsng"
-            CompanyNameBackgroundColorGreen={[false,true, false, false, false, false]}
+            DescriptionJob="TechInno"
+            CompanyNameBackgroundColorGreen={[false, true, false, false, false, false]}
             setDescriptionJob={props.setDescriptionJob}
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={2}
-            CompanyName="21st Century Technologies"
+            CompanyName="HNG"
             BarPosition={76}
             BarAvobePosition={257}
-            DescriptionJob="Centurytech"
-            CompanyNameBackgroundColorGreen={[false,false, true, false, false, false]}
+            DescriptionJob="Hotelsng"
+            CompanyNameBackgroundColorGreen={[false, false, true, false, false, false]}
             setDescriptionJob={props.setDescriptionJob}
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={3}
-            CompanyName="ZuriChat"
+            CompanyName="21st Century"
             BarPosition={120}
             BarAvobePosition={385}
-            DescriptionJob="Zuri"
+            DescriptionJob="Centurytech"
             CompanyNameBackgroundColorGreen={[false, false, false, true, false, false]}
             setDescriptionJob={props.setDescriptionJob}
           />
-          {/* <CompanyButton
-            ButtonOrderOfcompanyNameBackgroundColorGreen={4}
-            CompanyName=""
-            BarPosition={164}
-            BarAvobePosition={513}
-            DescriptionJob=""
-            CompanyNameBackgroundColorGreen={[false, false, false, false, true, false]}
-            setDescriptionJob={props.setDescriptionJob}
-          /> */}
-          {/* <CompanyButton
-            ButtonOrderOfcompanyNameBackgroundColorGreen={5}
-            CompanyName=""
-            BarPosition={208}
-            BarAvobePosition={641}
-            DescriptionJob=""
-            CompanyNameBackgroundColorGreen={[false, false, false, false, false, true]}
-            setDescriptionJob={props.setDescriptionJob}
-          /> */}
-          {/* <CompanyButton
-            ButtonOrderOfcompanyNameBackgroundColorGreen={6}
-            CompanyName=""
-            BarPosition={252}
-            BarAvobePosition={769}
-            DescriptionJob=""
-            CompanyNameBackgroundColorGreen={[false, false, false, false, false, false, true]}
-            setDescriptionJob={props.setDescriptionJob}
-          /> */}
         </div>
         <div className="block md:hidden h-0.5 rounded bg-gray-500">
           <motion.div animate={{ x: barAbovePosition }} className="w-[128px] h-0.5 rounded bg-AAsecondary"></motion.div>
@@ -178,7 +150,3 @@ const CompaniesBar = props => {
     </div>
   );
 };
-
-
-
-

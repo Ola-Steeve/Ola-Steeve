@@ -57,7 +57,7 @@ export default function Home() {
   console.log("Portfolio Rendered...");
   const meta = {
     title: "Stephen Ekundayo",
-    description: `I've been working as a DevOps Engineer for 4 years straight. Get in touch with me to know more.`,
+    description: `Security and cloud infrastructure engineer specializing in SIEM operations, identity governance, incident response, and DevOps automation across AWS and Azure. Get in touch to know more.`,
     image: "/",
     type: "website",
   };
@@ -68,8 +68,8 @@ export default function Home() {
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
-        <meta property="og:url" content={`https://stephenekundayo.xyz`} />
-        <link rel="canonical" href={`https://stephenekundayo.xyz`} />
+        <meta property="og:url" content={`https://www.stephen-ekundayo.me`} />
+        <link rel="canonical" href={`https://www.stephen-ekundayo.me`} />
         <link rel="icon" href="/favicon.ico/" />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Stephen Ekundayo" />

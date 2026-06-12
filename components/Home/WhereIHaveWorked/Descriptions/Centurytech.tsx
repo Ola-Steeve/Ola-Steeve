@@ -5,15 +5,15 @@ export default function Centurytech() {
   const tasks = [
     {
       text: " Designed and deployed hybrid cloud architectures that seamlessly integrate on-premises infrastructure with cloud resources, ensuring a cohesive and efficient IT environment.",
-      keywords: ["hybrid",'on-premises','cloud'],
+      keywords: ["hybrid", "on-premises", "cloud"],
     },
     {
       text: "Established VPN connections between on-premises data centers and cloud environments using AWS site-to-site VPN. Ensured secure and reliable communication between cloud resources and on-premises systems.",
-      keywords: ["VPN",'on-premises','cloud','AWS'],
+      keywords: ["VPN", "on-premises", "cloud", "AWS"],
     },
     {
       text: "Maintained comprehensive documentation and conducted knowledge-sharing sessions to improve team productivity.",
-      keywords: ["documentation",'knowledge-sharing'],
+      keywords: ["documentation", "knowledge-sharing"],
     },
   ];
   return (
@@ -22,13 +22,12 @@ export default function Centurytech() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Cloud Engineer <span className="text-AAsecondary"></span>
+            Cloud Engineer (Intern) <span className="text-AAsecondary">@ 21st Century</span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">January 2021 - September 2021</span>
+          <span className="font-mono text-xs text-gray-500">Apr 2021 - Sep 2021</span>
           <span
             className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
-            // set text size on style attribute
             style={{ fontSize: "0.6rem" }}
             onClick={() => window.open("https:///www.21stcenturytechnologies.com", "_blank")}
           >
@@ -36,7 +35,6 @@ export default function Centurytech() {
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
-          {/* Tasks Description 1 */}
           {tasks.map((item, index) => {
             return (
               <div key={index} className="flex flex-row space-x-2">

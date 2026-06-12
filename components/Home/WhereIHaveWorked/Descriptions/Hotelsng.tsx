@@ -28,19 +28,17 @@ export default function Hotelsng() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            DevOps Engineer <span className="text-AAsecondary">@ Cloud</span>
+            DevOps Engineer (Contract) <span className="text-AAsecondary">@ HNG</span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">October 2021 - August 2022</span>
+          <span className="font-mono text-xs text-gray-500">Oct 2023 - Dec 2023</span>
           <span className="font-mono text-xs text-AAsecondary hover:cursor-pointer" style={{ fontSize: "0.6rem" }}
-           // set on click to open the website
            onClick={() => window.open("https://www.hotels.ng/", "_blank")}
           >
             www.Hotels.ng
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
-          {/* Tasks Description 1 */}
           {tasks.map((item, index) => {
             return (
               <div key={index} className="flex flex-row space-x-1">

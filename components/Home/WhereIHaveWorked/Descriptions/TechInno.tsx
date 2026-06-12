@@ -14,7 +14,7 @@ export default function TechInno() {
     },
     {
       text: "Designed and maintained highly available systems with AWS services with a 99.99% uptime, utilizing load balancing, redundant architectures, and disaster recovery strategies.",
-      keywords: ["AWS","99.99%", "load balancing", "redundant architectures", "disaster recovery"],
+      keywords: ["AWS", "99.99%", "load balancing", "redundant architectures", "disaster recovery"],
     },
     {
       text: "Spearheaded security improvements through regular vulnerability assessments. This approach resulted in zero security breaches and ensured the integrity of customer data.",
@@ -28,21 +28,19 @@ export default function TechInno() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            DevOps Engineer <span className="text-AAsecondary"></span>
+            DevOps Engineer <span className="text-AAsecondary">@ Tech Innovations</span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">Nov 2022 - Present</span>
+          <span className="font-mono text-xs text-gray-500">Nov 2022 - Feb 2024</span>
           <span
             className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
             style={{ fontSize: "0.6rem" }}
-            // set on click to open the website
             onClick={() => window.open("https://www.techinovationsandsolutions.com/", "_blank")}
           >
             www.techinovations
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
-          {/* Tasks Description 1 */}
           {tasks.map((item, index) => {
             return (
               <div key={index} className="flex flex-row space-x-1">
