@@ -1,10 +1,10 @@
 import React from "react";
-import { motion } from "framer-motion";
-import ArrowIcon from "../../../Icons/ArrowIcon";
-import Hotelsng from "./Hotelsng";
-import Centurytech from "./Centurytech";
-import TechInno from "./TechInno";
-import Zenith from "./Zenith";
+import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
+import ArrowIcon from "../../Icons/ArrowIcon";
+import Hotelsng from "./Descriptions/Hotelsng";
+import Centurytech from "./Descriptions/Centurytech";
+import TechInno from "./Descriptions/TechInno";
+import Zenith from "./Descriptions/Zenith";
 export default function WhereIHaveWorked() {
   const barRef = React.useRef<HTMLDivElement>(null);
   // ? INFORMATIONAL control the green position using px,
