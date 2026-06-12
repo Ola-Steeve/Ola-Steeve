@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import ArrowIcon from "../../Icons/ArrowIcon";
+import ArrowIcon from "../../../Icons/ArrowIcon";
 import Hotelsng from "./Descriptions/Hotelsng";
 import Centurytech from "./Descriptions/Centurytech";
 import TechInno from "./Descriptions/TechInno";
