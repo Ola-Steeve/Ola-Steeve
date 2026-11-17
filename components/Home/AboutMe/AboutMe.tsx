@@ -29,22 +29,37 @@ export default function AboutMe(props) {
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
             <div className="font-Header ">
               <span className="text-gray-400 ">
-                Hey there! I&apos;m Olaoluwa Stephen, a security and cloud infrastructure engineer. I focus on
-                securing cloud and enterprise environments &mdash; identity governance, SIEM operations,
-                incident response, and the automation that ties it all together. In short, I reduce risk and
-                strip out the manual, error-prone work that slows security teams down.
+                Hey there! I&apos;m Olaoluwa Stephen, a <span className="text-AAsecondary">security</span> and{" "}
+                <span className="text-AAsecondary">cloud infrastructure</span> engineer. I focus on securing cloud
+                and enterprise environments &mdash; <span className="text-AAsecondary">identity governance</span>,{" "}
+                <span className="text-AAsecondary">SIEM operations</span>,{" "}
+                <span className="text-AAsecondary">incident response</span>, and the{" "}
+                <span className="text-AAsecondary">automation</span> that ties it all together. In short, I reduce
+                risk and strip out the manual, error-prone work that slows security teams down.
               </span>
             </div>
             <div className="font-Header ">
               <span className="text-gray-400 ">
-                At Zenith Bank I led the firewall remediation that cleared a long-standing PCI DSS audit
-                finding, built privileged access across hundreds of servers on Safeguard PAM and OneIdentity,
-                and ran detection and incident response on QRadar alongside Sentinel and Defender. Underneath
-                the security work sits the build side &mdash; AWS and Azure, Terraform and CloudFormation,
-                Kubernetes, and CI/CD pipelines with policy checks wired in. I am finishing an M.Eng at
-                Concordia, where my project work has moved toward AI: multi-agent systems that triage security
-                alerts under guardrails, machine-learning intrusion detection, and software supply-chain
-                security. Let&apos;s build something resilient.
+                At <span className="text-AAsecondary">Zenith Bank</span> I led the firewall remediation that
+                cleared a long-standing <span className="text-AAsecondary">PCI DSS</span> audit finding, built{" "}
+                <span className="text-AAsecondary">privileged access</span> across hundreds of servers on{" "}
+                <span className="text-AAsecondary">Safeguard PAM</span> and{" "}
+                <span className="text-AAsecondary">OneIdentity</span>, and ran detection and incident response on{" "}
+                <span className="text-AAsecondary">QRadar</span> alongside{" "}
+                <span className="text-AAsecondary">Sentinel</span> and{" "}
+                <span className="text-AAsecondary">Defender</span>. Underneath the security work sits the build
+                side &mdash; <span className="text-AAsecondary">AWS</span> and{" "}
+                <span className="text-AAsecondary">Azure</span>,{" "}
+                <span className="text-AAsecondary">Terraform</span> and{" "}
+                <span className="text-AAsecondary">CloudFormation</span>,{" "}
+                <span className="text-AAsecondary">Kubernetes</span>, and{" "}
+                <span className="text-AAsecondary">CI/CD</span> pipelines with policy checks wired in. I am
+                finishing an <span className="text-AAsecondary">M.Eng</span> at Concordia, where my project work
+                has moved toward <span className="text-AAsecondary">AI</span>: multi-agent systems that triage
+                security alerts under <span className="text-AAsecondary">guardrails</span>,{" "}
+                <span className="text-AAsecondary">machine-learning intrusion detection</span>, and{" "}
+                <span className="text-AAsecondary">software supply-chain security</span>. Let&apos;s build
+                something resilient.
               </span>
             </div>
 
