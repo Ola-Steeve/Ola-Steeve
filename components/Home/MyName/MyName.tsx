@@ -40,7 +40,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="text-gray-400 font-bold text-3xl lg:text-7xl sm:text-5xl md:text-6xl mt-4"
       >
-        I weave the magic of DevOps and Cloud into real-world solutions
+        I secure the systems I know how to build.
       </motion.h2>
 
       <motion.h3
@@ -52,19 +52,19 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="text-gray-400 font-Header text-sm md:text-lg sm:text-md mt-10 tracking-wider"
       >
-        <span className="text-AAsecondary">DevOps engineer</span> adept at creating seamless IT infrastructures, 
-        specializing in aligning <br className="2xl:block hidden" />
-        <span className="text-AAsecondary">development </span> with <span className="text-AAsecondary">operations</span>.
-        I ensure software delivery is <span className="text-AAsecondary">efficient</span>, 
-        <span className="text-AAsecondary"> secure</span>, and aligned with 
-        <span className="text-AAsecondary"> business objectives</span>. <br className="2xl:block hidden"/>
-        Expert in automation of<span className="text-AAsecondary"> deployment pipelines</span>, 
-        optimizing<span className="text-AAsecondary"> cloud architectures</span>, 
-        and implementing<span className="text-AAsecondary"> CI/CD workflows</span>.
-        Discover how I turn projects into scalable systems. 
-        From containerizing apps to advanced monitoring, I&apos;m committed to <span className="text-AAsecondary">DevOps excellence</span>.
-        {/* <br className="2xl:block hidden" />creating and deploying them, as well as implementing the
-        front-end components to enable seamless user interactions. */}
+        <span className="text-AAsecondary">Security engineer</span> working across cloud security,
+        identity and access, detection and <br className="2xl:block hidden" />
+        <span className="text-AAsecondary">incident response</span>. I came up through
+        <span className="text-AAsecondary"> cloud engineering</span> and
+        <span className="text-AAsecondary"> DevOps</span> before moving into security, so I harden
+        infrastructure <br className="2xl:block hidden" />
+        as someone who has built it. I have cleared
+        <span className="text-AAsecondary"> PCI DSS</span> audit findings, built
+        <span className="text-AAsecondary"> privileged access</span> across hundreds of servers,
+        and run <br className="2xl:block hidden" />
+        <span className="text-AAsecondary">SIEM</span> detection and response for a bank serving
+        40 million customers. These days I also build
+        <span className="text-AAsecondary"> AI agents</span> that do security work.
       </motion.h3>
       <motion.div
         initial={{ y: 10, opacity: 0 }}

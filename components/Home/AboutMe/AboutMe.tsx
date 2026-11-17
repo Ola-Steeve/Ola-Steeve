@@ -3,8 +3,8 @@ import Img from "../../../components/smallComp/image/Img";
 import ArrowIcon from "../../../components/Icons/ArrowIcon";
 export default function AboutMe(props) {
   const technologies = [
-    ["AWS", "Azure", "Linux", "Python", "Terraform"],
-    ["QRadar (SIEM)", "Azure PIM", "Safeguard PAM", "Docker", "CI/CD"],
+    ["AWS", "Microsoft Azure", "Entra ID / PIM", "Terraform", "Kubernetes", "Python"],
+    ["QRadar / Sentinel", "Defender XDR", "Safeguard PAM", "Forescout NAC", "Checkpoint / Algosec", "Forcepoint DLP"],
   ];
   return (
     <div id="aboutSection" data-aos="fade-up" className="snap-start flex flex-col  items-center py-20 bg-AAprimary">
@@ -37,12 +37,14 @@ export default function AboutMe(props) {
             </div>
             <div className="font-Header ">
               <span className="text-gray-400 ">
-                I work across security operations (IBM QRadar, Azure PIM, Safeguard PAM, PCI DSS) and the
-                DevOps and cloud foundation underneath it &mdash; AWS, Azure, CI/CD pipelines, containers,
-                and Infrastructure as Code on Linux. Currently completing an M.Eng in Quality Systems
-                Engineering at Concordia, I bring a structured, standards-based approach to building systems
-                that are secure, reliable, and audit-ready. Outside of work you might catch me hiking a trail
-                or parked at a local coffee shop. Let&apos;s build something resilient.
+                At Zenith Bank I led the firewall remediation that cleared a long-standing PCI DSS audit
+                finding, built privileged access across hundreds of servers on Safeguard PAM and OneIdentity,
+                and ran detection and incident response on QRadar alongside Sentinel and Defender. Underneath
+                the security work sits the build side &mdash; AWS and Azure, Terraform and CloudFormation,
+                Kubernetes, and CI/CD pipelines with policy checks wired in. I am finishing an M.Eng at
+                Concordia, where my project work has moved toward AI: multi-agent systems that triage security
+                alerts under guardrails, machine-learning intrusion detection, and software supply-chain
+                security. Let&apos;s build something resilient.
               </span>
             </div>
 
