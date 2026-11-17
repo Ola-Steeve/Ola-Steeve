@@ -5,20 +5,20 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function Zenith() {
   const tasks = [
     {
-      text: "Championed the firewall cleanup that cleared a long-standing PCI DSS audit finding, remediating thousands of legacy Checkpoint and Juniper rules with Algosec Firewall Analyzer and shrinking the attack surface.",
-      keywords: ["PCI DSS", "Checkpoint", "Juniper", "Algosec"],
+      text: "Championed the firewall cleanup that cleared a long-standing PCI DSS audit finding, remediating thousands of legacy Checkpoint and Juniper rules with Algosec Firewall Analyzer and micro-segmentation, reducing the network attack surface by 30%.",
+      keywords: ["PCI DSS", "Checkpoint", "Juniper", "Algosec", "micro-segmentation", "30%"],
     },
     {
-      text: "Built privileged access across hundreds of servers on Safeguard PAM and OneIdentity IAM, with credential vaulting, session recording and recurring access reviews over 20+ DMZ-zoned VLANs and DR zones, ending shared-credential access to critical systems.",
-      keywords: ["Safeguard PAM", "OneIdentity", "20+", "DMZ"],
+      text: "Enforced zero-trust privileged access across hundreds of servers on Safeguard PAM, OneIdentity IAM and Azure PIM, with credential vaulting, session recording and recurring access reviews over 20+ DMZ-zoned VLANs and DR zones, eliminating standing privileges for 85% of administrative roles.",
+      keywords: ["zero-trust", "Safeguard PAM", "OneIdentity", "Azure PIM", "20+", "DMZ", "85%"],
     },
     {
       text: "Found Forescout NAC was detecting but not blocking non-compliant and unknown endpoints, and corrected the 802.1X enforcement so unauthorized devices were quarantined automatically.",
       keywords: ["Forescout", "NAC", "802.1X"],
     },
     {
-      text: "Ran detection and incident response on IBM QRadar alongside Microsoft Sentinel and Defender, and diagnosed a cross-region snapshot backup failure that had left disaster-recovery data unprotected.",
-      keywords: ["IBM QRadar", "Microsoft Sentinel", "Defender", "incident response", "disaster-recovery"],
+      text: "Ran detection and incident response on IBM QRadar alongside Microsoft Sentinel and Defender across 200+ critical assets, maintaining 99.95% uptime for security logging, and diagnosed a cross-region snapshot backup failure that had left disaster-recovery data unprotected.",
+      keywords: ["IBM QRadar", "Microsoft Sentinel", "Defender", "incident response", "200+", "99.95%", "disaster-recovery"],
     },
     {
       text: "Owned staff identity on Entra ID, Privileged Identity Management, Conditional Access and MFA for roughly 5,000 employees in the bank's Cloud Center of Excellence, enforcing least-privilege access.",
